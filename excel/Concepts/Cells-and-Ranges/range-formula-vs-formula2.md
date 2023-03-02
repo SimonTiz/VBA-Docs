@@ -21,7 +21,7 @@ The primary difference between the two forms of Evaluation was how they behaved 
 
 When Range.Formula is used to set a cell's formula, IIE is used for evaluation.
 
-With the introduction of Dyanamic Arrays ("DA"), Excel now supports returning multiple values to the grid and AE is now the default. AE formula's can be set/read using Range.Formula2 which supersedes Range.Formula. However, to facilitate backcompatiblity, Range.Formula is still supported and will continue to set/return IIE formulas. Formula's set using Range.Formula will trigger implicit intersection and can never spill. Formula read using Range.Formula will continue to be silent on where Implicit Intersection occurs.
+With the introduction of Dynamic Arrays ("DA"), Excel now supports returning multiple values to the grid and AE is now the default. AE formula's can be set/read using Range.Formula2 which supersedes Range.Formula. However, to facilitate backcompatiblity, Range.Formula is still supported and will continue to set/return IIE formulas. Formula's set using Range.Formula will trigger implicit intersection and can never spill. Formula read using Range.Formula will continue to be silent on where Implicit Intersection occurs.
 
 Range.Formula effectively reports what would be presented in the formula bar in Pre-DA Excel, while Range.Formula2 reports the formula reported by the formula bar in DA Excel.
 
